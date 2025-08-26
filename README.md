@@ -1,7 +1,7 @@
 # sure_headless-mailbox
 Free Open Source, Headless Mailbox for everyone to customize your NUI
 
-**VERSION** `1.0.0`
+**VERSION** `1.0.1`
 **DISCORD** [OUR DISCORD](https://discord.gg/5CF2Z2JZWs)
 
 ## Core Features
