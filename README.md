@@ -1,6 +1,8 @@
 # sure_headless-mailbox
 Free Open Source, Headless Mailbox for everyone to customize your NUI
 
+**VERSION** `1.0.0`
+
 ## Core Features
 - Mailbox with title, sender, sent_date, content, and items to receive
 - Use JSON as storage
