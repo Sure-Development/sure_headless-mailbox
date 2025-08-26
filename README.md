@@ -37,7 +37,7 @@ Free Open Source, Headless Mailbox for everyone to customize your NUI
 Reference type (typescript) from `./types/types.ts`
 And you also need to add for visibility of NUI.
 ```typescript
-window.addEventListener('message', (event: MessageEvents) => {
+window.addEventListener('message', (event: MessageEvent<MessageEventsFromNUI>) => {
     const type = event.data.type
 
     if (type === 'update-mails') {
