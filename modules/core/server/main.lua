@@ -5,7 +5,6 @@ RegisterNetEvent('sure_headless-mailbox:loadHistoryIndexes', function()
     local playerId = source
     local xPlayer = ESX.GetPlayerFromId(playerId)
 
-
     if xPlayer then
         local identifier = xPlayer.getIdentifier()
         if players[identifier] then
