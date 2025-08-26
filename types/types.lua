@@ -1,0 +1,16 @@
+--- @meta
+--- 
+--- @class Mail
+--- @field title string
+--- @field sender string
+--- @field sent_date string
+--- @field content string
+--- @field receives Item[]
+--- 
+--- @class Item
+--- @field type 'item' | 'account'
+--- @field name string
+--- @field count number
+--- 
+--- @alias AllMails table<string, Mail>
+--- @alias Storage table<string, table<string, true>>
