@@ -31,4 +31,4 @@ interface MessageUpdateHistoryIndexes {
     indexes: string[]
 }
 
-export type MessageEvents = MessageUpdateMails | MessageAddMailIndexToHistory | MessageUpdateHistoryIndexes
+export type MessageEventsFromNUI = MessageUpdateMails | MessageAddMailIndexToHistory | MessageUpdateHistoryIndexes
