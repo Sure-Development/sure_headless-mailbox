@@ -60,7 +60,7 @@ AddEventHandler('onResourceStart', function(resource)
         players = previousData
 
         local function save()
-            SetTimeout(30000, function()
+            SetTimeout(GENERAL.timer_to_save_storage, function()
                 SaveResourceFile(resource, 'storage.json', json.encode(players), -1)
                 save()
             end)
